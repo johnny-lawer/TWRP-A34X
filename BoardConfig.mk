@@ -9,7 +9,10 @@ DEVICE_PATH := device/samsung/a34x
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
-
+# Crypto
+TW_INCLUDE_CRYPTO := true
+TW_INCLUDE_CRYPTO_FBE := true
+TW_INCLUDE_FBE_METADATA_DECRYPT := true
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
